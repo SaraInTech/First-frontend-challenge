@@ -1,0 +1,89 @@
+body {
+  background-color: transparent;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(44, 44, 44);
+  font-weight: lighter;
+  line-height: normal;
+  display: block;
+}
+
+
+.background-image {
+  background-image: url("https://img.freepik.com/premium-vector/cute-pink-abstract-minimal-background-perfect-wallpaper-backdrop-postcard-background_565280-460.jpg?w=2000");
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  margin-block: 0;
+}
+
+h1, h2, h3 {
+  color:#6f97ab;
+  font-family: 'Secular One', sans-serif;
+  line-height: normal;
+}
+
+p {
+  margin-block: 30px;
+}
+
+a {
+  color: #fb91b5;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ef5588;
+}
+
+.container {
+  width: 800px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  height: 100%;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  background: rgba(255, 255, 255, 0.452);
+  padding: 50px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin-block: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.btn-pink {
+  margin: 0px 80px;
+  background-color: #fb91b5;
+  color: white;
+  padding: 11px 30px;
+  border-radius: 14px;
+}
+
+.btn-pink:hover {
+  background-color: #ef5588;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #fb91b5;
+}
+.list-inline i:hover {
+  color: #ef5588;
+}
+
+
+/* RESPONSIBLE MEDIA */
